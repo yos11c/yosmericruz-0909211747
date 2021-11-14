@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<body bgcolor=red>
+
+    <P> Se muestra una pregunta, responder con la opción correcta</P>
+    <p>En la historia del fútbol ¿cuántos mundiales ha ganado Guatemala.?</p>
+    <p>Opcion 1: 6 </p>
+    <p>Opcion 2: 2</p>
+    <p>Opcion 3: 0 </p>
+    <input id="g1" type="text">
+
+    <button onclick="myFunction()">Confirma respuesta</button>
+
+
+
+    <script>
+        function myFunction() {
+
+            var g1 = document.getElementById("g1").value;
+
+            switch (g1) {
+                case "1":
+                    alert("InCorrecto");
+                    break;
+                case "2":
+                    alert("Incorrecto");
+                    break;
+                case "3":
+                    alert("CORRECTO");
+                    break;
+                default:
+                    alert("No escogiste ninguna de las opciones")
+
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>

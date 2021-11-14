@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> peso volumen </title>
+    <link rel="stylesheet" href="style2.css" ;>
+
+</head>
+
+<body>
+
+    <form action="">
+        <center>
+
+            <h2> Destino del paquete: Peten </h2>
+            <p> La distancia que tiene que recorrer el paquete para que llegue a su destino es de 10Kms</p>
+            <h2> Por favor, ingrese el largo del paquete</h2>
+            <input type="text" id="pe2">
+            <h2>Ingrese el ancho del paquete</h2>
+            <input type="text" id="pe3">
+            <h2>Ingresar el alto del paquete</h2>
+            <input type="text" id="pe4">
+            <input class="boton_1" type="button" value="SUMA" onclick="( pes1 (1,2,3) );">
+        </center>
+
+
+    </form>
+
+    <script>
+        var pes1 = function(pe2, pe3, p4) {
+            var pe2 = parseFloat(document.getElementById("pe2").value);
+            var pe3 = parseFloat(document.getElementById("pe3").value);
+            var pe4 = parseFloat(document.getElementById("pe4").value);
+
+            var dist = (0.13);
+            var dklm = (460 * dist);
+            var preklg = (2.5);
+            var pesovolum = (pe2 * pe3 * pe4) / 2272;
+
+            alert("Valor por la distancia recorrida:" + dklm);
+
+            var tarifa = (pesovolum * preklg) + dklm;
+            alert("Su valor total a pagar es de: " + tarifa);
+
+        }
+    </script>
+
+</body>
+
+</html>

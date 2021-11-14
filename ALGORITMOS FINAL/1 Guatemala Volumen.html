@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> peso volumen </title>
+    <link rel="stylesheet" href="style2.css" ;>
+
+</head>
+
+<body>
+
+
+
+    <form action="">
+        <center>
+
+            <h2> Destino del paquete: Guatemala </h2>
+            <p> La distancia que tiene que recorrer el paquete para que llegue a su destino es de 10Kms</p>
+            <h2>Por favor, ingrese el largo del paquete</h2>
+            <input type="text" id="p2">
+            <h2>Ingrese aquí el ancho del paquete</h2>
+            <input type="text" id="p3">
+            <h2> Por favor, Ingresar el alto del paquete</h2>
+            <input type="text" id="p4">
+            <input type="button" class="boton_1" value="SUMA" onclick="( rest1 (1,2,3) );">
+        </center>
+        <center> <img src="https://www.learexpress.com/venezuelanew/wp-content/uploads/sites/15/2018/11/volumen-de-un-paquete.png" width="200"></center>
+    </form>
+
+    <script>
+        var rest1 = function(p2, p3, p4) {
+            var p2 = parseFloat(document.getElementById("p2").value);
+            var p3 = parseFloat(document.getElementById("p3").value);
+            var p4 = parseFloat(document.getElementById("p4").value);
+
+            var dist = (0.13);
+            var dklm = (178 * dist);
+            var preklg = (2.5);
+            var pesovolum = (p2 * p3 * p4) / 2272;
+
+            alert("Valor por la distancia recorrida :" + dklm);
+
+            var tarifa = (pesovolum * preklg) + dklm;
+            alert("Su valor total a pagar es de: " + tarifa);
+
+        }
+    </script>
+
+</body>
+
+</html>

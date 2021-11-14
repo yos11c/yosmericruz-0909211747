@@ -1,0 +1,111 @@
+body {
+    height: 10px;
+    background-image: url("https://thumbs.dreamstime.com/b/fondo-de-la-caja-entrega-modelo-sin-fisuras-del-paquete-carga-varias-cajas-cart%C3%B3n-abiertas-y-cerradas-iconos-planos-paquetes-169363918.jpg");
+    background-repeat: no-repeat;
+    background-size: 100rem;
+}
+
+h4 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    width: 200px;
+    height: 40px;
+    background: rgb(111, 0, 255);
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    width: 500px;
+    height: 55px;
+    background: rgb(111, 0, 255);
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    width: 800px;
+    height: 75px;
+    background: rgb(111, 0, 255);
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    width: 600px;
+    height: 60px;
+    background: rgb(111, 0, 255);
+}
+
+a {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #fc08fc;
+    background-color: rgb(18, 9, 145);
+    border-radius: 15px;
+    border: 3px double #160065;
+}
+
+a:hover {
+    opacity: 0.6;
+    text-decoration: none;
+    color: rgb(4, 234, 241);
+}
+
+.boton_1 {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #e609b6;
+    background-color: hsl(244, 88%, 30%);
+    border-radius: 15px;
+    border: 3px double #0c89fd;
+}
+
+.boton_1:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}

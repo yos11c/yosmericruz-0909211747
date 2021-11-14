@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <form action="">
+        <p> cantidad 1000 maxima</p>
+        <input type="text" id="al3" cols="20" rows="3"> <br> <br>
+
+        <input type="button" value="restar" onclick="(  al1(1,2) );"></center>
+
+
+
+    </form>
+    <script>
+        var al1 = function(var3) {
+            var al3 = parseFloat(document.getElementById("al3").value);
+            var al2 = (1000);
+
+
+            if (al3 < 1001) {
+                var resultado = al2 - al3;
+                alert(resultado);
+
+            } else {
+                alert("su saldo es insuficiente")
+            }
+        }
+    </script>
+
+
+
+
+</head>
+
+</html>

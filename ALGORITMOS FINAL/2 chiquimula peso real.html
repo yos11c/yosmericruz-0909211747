@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> peso real </title>
+    <link rel="stylesheet" href="style2.css" ;>
+
+</head>
+
+<body>
+
+
+    <body>
+
+
+        <p>Empresa P&P de servicio de transporte de paquetería</p>
+        <h2> Destino del paquete: Chiquimula </h2>
+        <p> La distancia que tiene que recorrer el paquete para que llegue a su destino es de 10Kms</p>
+        <h2>Por favor, Ingresar el peso real del paquete</h2>
+        <input type="text" id="p2">
+        <input type="button" class="boton_1" value="SUMA" onclick="( p1 (1,2) );">
+        </center>
+
+
+
+        </form>
+
+        <script>
+            var p1 = function(p2) {
+                var p2 = parseFloat(document.getElementById("pe2").value);
+                var dist = (0.13);
+                var dklm = (dist * 178);
+                var preklg = (2.5);
+                alert("Valor por la distancia recorrida:" + dklm);
+                var tarifa = (p2 * 2.5) + 1.3;
+                alert("Su valor total a pagar es de: " + tarifa);
+
+            }
+        </script>
+
+    </body>
+
+</html>
